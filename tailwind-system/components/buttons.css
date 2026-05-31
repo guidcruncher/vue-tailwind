@@ -1,0 +1,10 @@
+.gc-btn {
+  @apply inline-flex items-center justify-center rounded-md font-medium
+         transition-colors duration-150 px-3 py-2 text-sm
+         bg-surface text-text border border-border
+         hover:bg-muted/10;
+}
+
+.gc-btn-primary {
+  @apply gc-btn bg-primary text-white hover:bg-primary/90;
+}

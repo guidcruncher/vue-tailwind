@@ -1,0 +1,19 @@
+@layer components {
+  .gc-navbar {
+    @apply w-full h-14 flex items-center justify-between
+           px-4 border-b border-border bg-surface text-text;
+  }
+
+  .gc-navbar-left,
+  .gc-navbar-right {
+    @apply flex items-center gap-4;
+  }
+
+  .gc-navbar-brand {
+    @apply text-lg font-semibold;
+  }
+
+  .gc-navbar-divider {
+    @apply w-px h-6 bg-border/60;
+  }
+}
